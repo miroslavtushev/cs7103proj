@@ -3,7 +3,7 @@
 To compile use
 ```
 gcc client.c -o client
-gcc server.c -o server
+gcc server.c -o server -std=c11 -lpthread
 ```
 
 Then run using
